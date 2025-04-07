@@ -7,7 +7,7 @@ class DataValues {
   static Uri githubURL = Uri.parse('https://github.com/sravyaMendu23');
   static Uri linkedinURL = Uri.parse('https://linkedin.com/in/sravya-mendu23');
   static Uri telegramURL = Uri.parse('https://t.me/sravya_mendu23');
-  static Uri repoURL = Uri.parse('https://github.com/sravyaMendu23');
+  static Uri repoURL = Uri.parse('https://github.com/sravyaMendu23/portfolio');
 
   // Header
   static const String headerGreetings = 'Hey there! I\'m';
