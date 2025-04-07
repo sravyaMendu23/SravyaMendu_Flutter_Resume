@@ -24,10 +24,11 @@ class DataValues {
   // About me
   static const String aboutMeTitle = 'About Me';
   static const String aboutMeDescription =
-      'Welcome to my portfolio! I\'m Sravya Mendu, a dedicated and innovative Flutter developer. This website contains my public details, which you can easily find online. If you\'re interested in learning more about my background, education, experience, and other aspects of my professional life, feel free to scroll up and down.';
+      // 'Welcome to my portfolio! I\'m Sravya Mendu, a dedicated and innovative Flutter developer. This website contains my public details, which you can easily find online. If you\'re interested in learning more about my background, education, experience, and other aspects of my professional life, feel free to scroll up and down.';
+      'I’m Sravya Mendu, a passionate Flutter developer with experience in creating high-quality mobile apps. This resume highlights my background, education, skills, and work experience. Feel free to reach out for more information.';
   static const String aboutMeBiographyTitle = 'Biography';
   static const String aboutMeBiographyDescription =
-      'Hi there! I\'m a computing student and solution developer. I believe that personal growth and learning are essential for success, and I have dedicated my life to achieving both. Because of that, I\'m always looking to learn new things and apply them to whatever I\'m doing.';
+      'Hi there! I\'m a computing student and solution developer. I believe in always learning and growing, and I try to apply new knowledge to everything I do.';
   static const String aboutMeFullNameTitle = 'Full Name';
   static const String aboutMeFullNameDescription = 'Mendu Sravya';
   static const String aboutMeNwITitle = 'Name with Initials';
@@ -52,13 +53,13 @@ class DataValues {
       'Jamming to tunes and tuning into podcasts\n';
   static const String aboutMeGoalTitle = 'Goal';
   static const String aboutMeGoalDescription =
-      'To continuously enhance my technical skills and stay updated with industry trends, ensuring I remain competitive and innovative in my field.';
+      'I aim to keep improving my technical skills and stay updated with industry trends to stay competitive and innovative.';
   static const String aboutMeStudentTitle = 'Computing Student';
   static const String aboutMeStudentDescription =
-      'I am deeply immersed in the realm of computing technologies as a dedicated student. My focus spans from understanding the intricate workings of computer hardware to the development of user-friendly software applications. Through hands-on projects in my masters, I have gained practical knowledge and experience, applying computing principles to solve real-world problems. Whether delving into the architecture of computer systems or crafting innovative solutions through programming, I am driven by a passion for mastering the foundational principles of computing and leveraging them to tackle challenges effectively.';
+      'I am a dedicated computing student with a focus on both computer hardware and software development. Through hands-on projects in my master\'s program, I\'ve gained practical experience in applying computing principles to solve real-world problems. Driven by a passion for mastering the fundamentals, I aim to use my knowledge to tackle challenges effectively.';
   static const String aboutMeDeveloperTitle = 'Software Developer';
   static const String aboutMeDeveloperDescription =
-      'I use various tools for creating and implementing innovative solutions to problems to achieve specific goals. My approach encompasses a wide range of techniques, including software and app development, with a focus on business objectives. My experience with projects involving Kotlin and XML has been particularly impactful at the organizational level, enabling me to effectively streamline processes and enhance functionality. I am dedicated to leveraging my skills in computing technologies to drive meaningful advancements and solutions in every project I undertake.';
+      'I use a variety of tools to create innovative solutions aimed at achieving specific goals. My approach includes software and app development with a focus on business objectives. Working with Kotlin and XML on projects has helped streamline processes and improve functionality. I’m committed to using my computing skills to drive meaningful advancements in every project I take on.';
 
   // Education
   static const String educationTitle = 'Education';
@@ -119,7 +120,7 @@ class DataValues {
   // Experience
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
-      'During my post-graduation, I delved into new technologies, enhancing my knowledge and skill set. After completing my studies, I began my first full-time position in 2023. Over the past year and four months, I’ve gained valuable experience, which has deepened my understanding and passion for the field. This journey has allowed me to contribute meaningfully to projects, develop practical skills, and adapt to evolving technological landscapes, laying a solid foundation for my career growth.';
+      'During my post-graduation, I delved into new technologies, enhancing my knowledge and skill set. After completing my studies, I began my first full-time position in 2023. Over the past 2 years, I’ve gained valuable experience, which has deepened my understanding and passion for the field. This journey has allowed me to contribute meaningfully to projects, develop practical skills, and adapt to evolving technological landscapes, laying a solid foundation for my career growth.';
   static const String experienceOrg2Title = 'Toucan Payments';
   static const String experienceOrg2Role = 'Junior Software Engineer (Flutter)';
   static const String experienceOrg2Years = 'April 2023';
