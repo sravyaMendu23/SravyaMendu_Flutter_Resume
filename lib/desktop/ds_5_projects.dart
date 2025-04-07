@@ -6,8 +6,8 @@ import '../theme/app_theme.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class DS5Projects extends StatelessWidget {
-  const DS5Projects({Key? key}) : super(key: key);
+class DS4Projects extends StatelessWidget {
+  const DS4Projects({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

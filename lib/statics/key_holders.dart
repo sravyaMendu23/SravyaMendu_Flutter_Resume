@@ -7,8 +7,8 @@ class KeyHolders {
       GlobalKey<ScaffoldState>();
 
   static final GlobalKey aboutKey = GlobalKey();
-  static final GlobalKey educationKey = GlobalKey();
   static final GlobalKey experienceKey = GlobalKey();
   static final GlobalKey projectsKey = GlobalKey();
+  static final GlobalKey educationKey = GlobalKey();
   static final GlobalKey contactKey = GlobalKey();
 }

@@ -21,15 +21,6 @@ class NavBar {
         ),
         const SizedBox(width: 20.0),
         ButtonTextLarge(
-          text: DataValues.navBarEducation,
-          onPressed: () => Scrollable.ensureVisible(
-            KeyHolders.educationKey.currentContext!,
-            duration: const Duration(milliseconds: 1000),
-          ),
-          message: 'Go to ${DataValues.navBarEducation} section',
-        ),
-        const SizedBox(width: 20.0),
-        ButtonTextLarge(
           text: DataValues.navBarExperience,
           onPressed: () => Scrollable.ensureVisible(
             KeyHolders.experienceKey.currentContext!,
@@ -45,6 +36,15 @@ class NavBar {
             duration: const Duration(milliseconds: 1000),
           ),
           message: 'Go to ${DataValues.navBarProjects} section',
+        ),
+        const SizedBox(width: 20.0),
+        ButtonTextLarge(
+          text: DataValues.navBarEducation,
+          onPressed: () => Scrollable.ensureVisible(
+            KeyHolders.educationKey.currentContext!,
+            duration: const Duration(milliseconds: 1000),
+          ),
+          message: 'Go to ${DataValues.navBarEducation} section',
         ),
         const SizedBox(width: 20.0),
         ButtonRectangle(
@@ -104,18 +104,6 @@ class NavBar {
           ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
-            text: DataValues.navBarEducation,
-            onPressed: () {
-              Navigator.pop(context);
-              Scrollable.ensureVisible(
-                KeyHolders.educationKey.currentContext!,
-                duration: const Duration(milliseconds: 1000),
-              );
-            },
-            message: 'Go to ${DataValues.navBarEducation} section',
-          ),
-          const SizedBox(height: 20.0),
-          ButtonTextLarge(
             text: DataValues.navBarExperience,
             onPressed: () {
               Navigator.pop(context);
@@ -137,6 +125,18 @@ class NavBar {
               );
             },
             message: 'Go to ${DataValues.navBarProjects} section',
+          ),
+          const SizedBox(height: 20.0),
+          ButtonTextLarge(
+            text: DataValues.navBarEducation,
+            onPressed: () {
+              Navigator.pop(context);
+              Scrollable.ensureVisible(
+                KeyHolders.educationKey.currentContext!,
+                duration: const Duration(milliseconds: 1000),
+              );
+            },
+            message: 'Go to ${DataValues.navBarEducation} section',
           ),
           const SizedBox(height: 20.0),
           ButtonRectangle(

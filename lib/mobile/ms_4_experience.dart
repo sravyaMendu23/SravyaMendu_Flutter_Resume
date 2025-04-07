@@ -6,8 +6,8 @@ import '../theme/app_theme.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class MS4Experience extends StatelessWidget {
-  const MS4Experience({Key? key}) : super(key: key);
+class MS3Experience extends StatelessWidget {
+  const MS3Experience({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

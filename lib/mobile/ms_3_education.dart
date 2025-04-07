@@ -6,8 +6,8 @@ import '../theme/app_theme.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class MS3Education extends StatelessWidget {
-  const MS3Education({Key? key}) : super(key: key);
+class MS5Education extends StatelessWidget {
+  const MS5Education({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
